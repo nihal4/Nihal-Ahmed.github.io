@@ -1,0 +1,124 @@
+.s2{
+    background-color: #1d1d1d;
+    margin-top: 5px;
+    border-radius: 10px 10px;
+    transition: all .5s;
+    &:hover{
+        box-shadow: 0px .5px 10px rgba(255, 255, 255, 0.648) ;
+        transform: translateY(-5px);
+    }
+}
+.con{
+    &-img{
+        width: 300px;
+    }
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    &-box{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+}
+.email{
+    height: 2rem;
+    padding: 15px 15px;
+    outline: none;
+    border-radius: 50px;
+    background-color: #282828;
+    border: none;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 1rem;
+    height: 2.5rem;
+    transition: all .5s;
+    font-weight: 200;
+    &:hover{
+        box-shadow: 0px 1px 10px #fff;
+        transform: translateY(-5px);
+    }
+}
+.number{
+    height: 2.5rem;
+    padding: 15px 15px;
+    outline: none;
+    border-radius: 50px;
+    background-color: #282828;
+    border: none;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 1rem;
+    font-weight: 200;
+    transition: all .5s;
+    &:hover{
+        box-shadow: 0px 1px 10px #fff;
+        transform: translateY(-5px);
+    }
+}
+.text-box{
+    width: 30rem;
+    height: 13rem;
+    color: #ffff;
+    background-color: #282828;
+    outline: none;
+    line-height: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: all .5s;
+    font-weight: 200;
+    margin-bottom: 1.5rem;
+    resize: none;
+    &:hover{
+        box-shadow: 0px 1px 10px #fff;
+        transform: translateY(-5px);
+    }
+}
+.s2btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #282828;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 15px 15px;
+    border-radius: 50px;
+    text-align: center;
+    transition: all .5s;
+    outline: none;
+    border: none;
+    &:hover{
+        color: #fff;
+        box-shadow: 0px 1px 10px #fff;
+        transform: translateY(-5px);
+    }
+}
+@media (max-width:1024px){
+    .text-box{
+        width: 25rem;
+        height: 10rem;
+    }
+}
+@media (max-width:768px){
+    .s2{
+        padding-bottom: 2rem;
+    }
+    .s2-img{
+        display: none;
+    }
+}
+@media (max-width:425px){
+    .text-box{
+        width: 20rem;
+        height: 8rem;
+    }
+}
+@media (max-width:320px){
+    .text-box{
+        width: 15rem;
+        height: 5rem;
+    }
+}

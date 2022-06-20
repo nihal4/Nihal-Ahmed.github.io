@@ -1,0 +1,14 @@
+.footer{
+    margin-top: 5px;
+    background-color: #1d1d1d;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &-text{
+        color: rgba(255, 255, 255, 0.663);
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 25px;
+        text-align: center;
+    }
+}
